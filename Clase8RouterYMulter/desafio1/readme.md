@@ -1,0 +1,2 @@
+* Utilizamos en utils.js un método para poder crear nuestro propio __dirname para gestión
+de rutas absolutas en ES6. La solución fue generada como el método más óptimo al día de hoy, sin embargo, en caso de que al momento de la lectura de este desafío, ya contemos con un método distinto o estandarizado, puedes optar por utilizar el __dirname que mejor te convenga.

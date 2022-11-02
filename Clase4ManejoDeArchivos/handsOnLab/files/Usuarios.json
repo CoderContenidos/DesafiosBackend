@@ -1,0 +1,23 @@
+[
+	{
+		"nombre": "Mauricio",
+		"apellido": "Espinosa",
+		"edad": 26,
+		"curso": "Backend",
+		"id": 1
+	},
+	{
+		"nombre": "Mauricio",
+		"apellido": "Espinosa",
+		"edad": 26,
+		"curso": "Backend",
+		"id": 2
+	},
+	{
+		"nombre": "Mauricio",
+		"apellido": "Espinosa",
+		"edad": 26,
+		"curso": "Backend",
+		"id": 3
+	}
+]
