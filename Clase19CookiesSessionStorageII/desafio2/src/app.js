@@ -8,7 +8,7 @@ import viewsRouter from './routes/views.router.js';
 import sessionsRouter from './routes/sessions.router.js';
 
 const app = express();
-const connection = mongoose.connect('mongodb+srv://CoderUser:123@codercluster.w5adegs.mongodb.net/?retryWrites=true&w=majority',{
+const connection = mongoose.connect('TU URL DE MONGO AQUÍ',{
     useNewUrlParser:true,
     useUnifiedTopology:true
 })
@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.static(__dirname+'/public'))
 app.use(session({
     store:new MongoStore({
-        mongoUrl:'mongodb+srv://CoderUser:123@codercluster.w5adegs.mongodb.net/?retryWrites=true&w=majority',
+        mongoUrl:'TU URL DE MONGO AQUÍ',
         ttl:3600
     }),
     secret:"CoderSecretSHHHHH",
